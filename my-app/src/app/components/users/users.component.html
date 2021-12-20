@@ -1,0 +1,18 @@
+<ul>
+  <li *ngFor ="let user of listOfUsers">
+    <!-- // string interpolation// -->
+     {{user.name}}
+    </li>
+    <!-- // property binding// -->
+    <img [src]="imageSource"/>
+  <br/>
+  <br/>
+  <!-- // event binding// -->
+  <button (click)= "showPopup($event)">Click me</button>
+   <br/>
+   {{inputType}}
+   <br/>
+   <!-- // two way data binding we are combining property and event bindings// -->
+   <input type="Text" [(ngModel)] = "inputType"/>
+
+</ul>
