@@ -1,0 +1,42 @@
+{
+    "users":
+         [
+             {
+                  "id": "1",
+                  "name": "Ash",
+                  "age":10,
+                  "company": "tcs"
+             },
+             {
+                "id": "2",
+                "name": "Ashok",
+                "age":11,
+                "company": "tcs"
+           },
+           {
+            "id": "3",
+            "name": "Ash",
+            "age":12,
+            "company": "tcs"
+           },
+             {
+              "id": "4",
+              "name": "Ash",
+              "age":13,
+              "company": "tcs"
+       },
+       {
+             "id": "5",
+             "name": "Ash",
+             "age":14,
+             "company": "tcs"
+   },
+   {
+    "id": "6",
+    "name": "Ash",
+    "age":15,
+    "company": "tcs"
+   }
+  ]        
+    
+}

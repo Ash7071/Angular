@@ -1,0 +1,29 @@
+<button (click)="fetchUsers()"> Show user list</button>
+
+<br/>
+
+<table>
+  <thead>
+    <tr>
+       <th>
+         name
+       </th>
+       <th>
+         company
+       </th>
+       <th>
+         age
+       </th>
+       <th>
+         id
+       </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let user of users">
+    <td>{{ user.id }}</td>
+    <td>{{ user.name }}</td>
+    <td>{{ user.company }}</td>
+
+  </tbody>
+</table>
